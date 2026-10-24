@@ -201,7 +201,7 @@
             var phone = '5493534456088';
             var url = 'https://wa.me/' + phone + '?text=' + encoded;
 
-            window.open(url, '_blank', 'noopener');
+            window.open(url, '_blank', 'noopener,noreferrer');
         });
     }
 
